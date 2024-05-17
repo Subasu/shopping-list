@@ -42,7 +42,7 @@ const addItem=(e)=>{
 
 const getFromLocalStorage=()=>{
     let locallyStoredItem;
-    if(localStorage.getItem('items')==='null'){
+    if(localStorage.getItem('items')===null){
         locallyStoredItem=[]
     }
     else{
